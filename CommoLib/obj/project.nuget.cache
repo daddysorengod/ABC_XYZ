@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "6ZJBUGMrD1/jNNJVOUtqEyfJrT7qq3g3yQFdaVeAXIVxPIwEkXqesDtOdfxF453+tIr1qs43FNhUtj9KRv4+Qw==",
+  "success": true,
+  "projectFilePath": "D:\\WorkSpace\\ABC_XYZ\\CommoLib\\CommoLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NNStore\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\NNStore\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\NNStore\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\NNStore\\.nuget\\packages\\nlog\\5.2.0\\nlog.5.2.0.nupkg.sha512",
+    "C:\\Users\\NNStore\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

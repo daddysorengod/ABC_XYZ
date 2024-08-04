@@ -1,0 +1,15 @@
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\ConfigLog\nlog.config
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.Development.json
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.json
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\ABC_XYZ.pdb
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\comerr64.dll
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\gssapi64.dll
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\k5sprt64.dll
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\krb5_64.dll
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\krbcc64.dll
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\BusinessLayer.pdb
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\CommoLib.pdb
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\ObjectInterface.pdb
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\DataAccessLayer.pdb
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\MySqlHelper.pdb
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\win-x64\PubTmp\Out\ABC_XYZ.exe

@@ -1,0 +1,12 @@
+D:\WorkSpace\ABC_XYZ\ObjectInterface\bin\Release\net6.0\ObjectInterface.deps.json
+D:\WorkSpace\ABC_XYZ\ObjectInterface\bin\Release\net6.0\ObjectInterface.dll
+D:\WorkSpace\ABC_XYZ\ObjectInterface\bin\Release\net6.0\ObjectInterface.pdb
+D:\WorkSpace\ABC_XYZ\ObjectInterface\obj\Release\net6.0\ObjectInterface.csproj.AssemblyReference.cache
+D:\WorkSpace\ABC_XYZ\ObjectInterface\obj\Release\net6.0\ObjectInterface.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\ABC_XYZ\ObjectInterface\obj\Release\net6.0\ObjectInterface.AssemblyInfoInputs.cache
+D:\WorkSpace\ABC_XYZ\ObjectInterface\obj\Release\net6.0\ObjectInterface.AssemblyInfo.cs
+D:\WorkSpace\ABC_XYZ\ObjectInterface\obj\Release\net6.0\ObjectInterface.csproj.CoreCompileInputs.cache
+D:\WorkSpace\ABC_XYZ\ObjectInterface\obj\Release\net6.0\ObjectInterface.dll
+D:\WorkSpace\ABC_XYZ\ObjectInterface\obj\Release\net6.0\refint\ObjectInterface.dll
+D:\WorkSpace\ABC_XYZ\ObjectInterface\obj\Release\net6.0\ObjectInterface.pdb
+D:\WorkSpace\ABC_XYZ\ObjectInterface\obj\Release\net6.0\ref\ObjectInterface.dll

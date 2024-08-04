@@ -1,0 +1,12 @@
+D:\WorkSpace\ABC_XYZ\CommoLib\bin\Release\net6.0\CommoLib.deps.json
+D:\WorkSpace\ABC_XYZ\CommoLib\bin\Release\net6.0\CommoLib.dll
+D:\WorkSpace\ABC_XYZ\CommoLib\bin\Release\net6.0\CommoLib.pdb
+D:\WorkSpace\ABC_XYZ\CommoLib\obj\Release\net6.0\CommoLib.csproj.AssemblyReference.cache
+D:\WorkSpace\ABC_XYZ\CommoLib\obj\Release\net6.0\CommoLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\ABC_XYZ\CommoLib\obj\Release\net6.0\CommoLib.AssemblyInfoInputs.cache
+D:\WorkSpace\ABC_XYZ\CommoLib\obj\Release\net6.0\CommoLib.AssemblyInfo.cs
+D:\WorkSpace\ABC_XYZ\CommoLib\obj\Release\net6.0\CommoLib.csproj.CoreCompileInputs.cache
+D:\WorkSpace\ABC_XYZ\CommoLib\obj\Release\net6.0\CommoLib.dll
+D:\WorkSpace\ABC_XYZ\CommoLib\obj\Release\net6.0\refint\CommoLib.dll
+D:\WorkSpace\ABC_XYZ\CommoLib\obj\Release\net6.0\CommoLib.pdb
+D:\WorkSpace\ABC_XYZ\CommoLib\obj\Release\net6.0\ref\CommoLib.dll

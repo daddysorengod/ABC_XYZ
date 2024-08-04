@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\WorkSpace\ABC_XYZ\Publish</_PublishTargetUrl>
+    <History>True|2024-08-03T16:53:49.9498683Z;True|2024-08-03T23:53:11.3232983+07:00;True|2024-08-03T23:15:16.2105215+07:00;True|2024-08-03T22:59:45.2673261+07:00;True|2024-08-03T22:46:41.3710875+07:00;True|2024-08-03T22:46:15.5369344+07:00;True|2024-08-03T22:45:11.9409975+07:00;True|2024-08-03T22:41:41.2157222+07:00;True|2024-08-03T21:14:39.5515132+07:00;False|2024-08-03T21:13:18.7182372+07:00;False|2024-08-03T21:12:40.7502909+07:00;True|2024-08-03T21:08:49.9794851+07:00;True|2024-08-03T16:38:30.5155308+07:00;True|2024-08-03T16:03:49.4419014+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
