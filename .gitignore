@@ -1,0 +1,16 @@
+/Publish
+
+/ABC_XYZ/bin
+/ABC_XYZ/obj
+
+/BusinessLayer/bin
+/BusinessLayer/obj
+
+/CommoLib/bin
+/CommoLib/obj
+
+/DataAccessLayer/bin
+/DataAccessLayer/obj
+
+/ObjectInterface/bin
+/ObjectInterface/obj
