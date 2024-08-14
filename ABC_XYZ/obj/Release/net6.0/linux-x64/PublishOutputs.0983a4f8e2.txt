@@ -39,10 +39,9 @@ D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\System.Wind
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\BusinessLayer.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\CommoLib.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\DataAccessLayer.dll
-D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\MySqlHelper.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\ObjectInterface.dll
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\HelperMySqlLib.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\BusinessLayer.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\CommoLib.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\ObjectInterface.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\DataAccessLayer.pdb
-D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\PubTmp\Out\MySqlHelper.pdb

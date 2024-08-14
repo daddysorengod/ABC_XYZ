@@ -39,13 +39,11 @@ D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\System.Windows.Extensi
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\BusinessLayer.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\CommoLib.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\DataAccessLayer.dll
-D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\MySqlHelper.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\ObjectInterface.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\BusinessLayer.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\CommoLib.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\ObjectInterface.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\DataAccessLayer.pdb
-D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\MySqlHelper.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\ABC_XYZ.csproj.AssemblyReference.cache
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\ABC_XYZ.GeneratedMSBuildEditorConfig.editorconfig
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\ABC_XYZ.AssemblyInfoInputs.cache
@@ -62,3 +60,4 @@ D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\refint\ABC_XYZ.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\ABC_XYZ.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\ABC_XYZ.genruntimeconfig.cache
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\linux-x64\ref\ABC_XYZ.dll
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\linux-x64\HelperMySqlLib.dll

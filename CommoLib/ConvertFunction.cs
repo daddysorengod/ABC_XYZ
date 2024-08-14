@@ -108,6 +108,9 @@ namespace CommonLib
                             case "System.Int32":
                                 propertyInfo.SetValue(rsObject, Convert.ToInt32(dr[possition]), null);
                                 break;
+                            case "System.Int64":
+                                propertyInfo.SetValue(rsObject, Convert.ToInt64(dr[possition]), null);
+                                break;
                             default:
                                 propertyInfo.SetValue(rsObject, Convert.ChangeType(dr[possition], propertyInfo.PropertyType), null);
                                 break;

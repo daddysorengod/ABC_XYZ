@@ -516,24 +516,23 @@
         "dependencies": {
           "CommoLib": "1.0.0",
           "MySql.Data": "8.0.33",
-          "MySqlHelper": "1.0.0",
           "ObjectInterface": "1.0.0"
         },
         "runtime": {
           "DataAccessLayer.dll": {}
         }
       },
-      "MySqlHelper/1.0.0": {
-        "dependencies": {
-          "MySql.Data": "8.0.33"
-        },
-        "runtime": {
-          "MySqlHelper.dll": {}
-        }
-      },
       "ObjectInterface/1.0.0": {
         "runtime": {
           "ObjectInterface.dll": {}
+        }
+      },
+      "HelperMySqlLib/1.0.0.0": {
+        "runtime": {
+          "HelperMySqlLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -909,13 +908,13 @@
       "serviceable": false,
       "sha512": ""
     },
-    "MySqlHelper/1.0.0": {
+    "ObjectInterface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ObjectInterface/1.0.0": {
-      "type": "project",
+    "HelperMySqlLib/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

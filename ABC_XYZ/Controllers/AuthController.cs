@@ -1,6 +1,7 @@
 ﻿using BusinessLayer;
 using CommoLib;
 using DataAccessLayer;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;

@@ -17,5 +17,9 @@ namespace ObjectInterface.UserProfile
         public DateTime CreatedDate { get; set; }
         public int Deleted { get; set; }
         public string Role { get; set; }
+        public string DisplayName { get; set; }
+        public string Education { get; set; }
+        public string Gender { get; set; }
+        public string Job { get; set; }
     }
 }

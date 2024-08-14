@@ -1,4 +1,5 @@
-﻿using BusinessLayer;
+﻿using ABC_XYZ.HubControl;
+using BusinessLayer;
 using CommoLib;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -58,6 +59,14 @@ builder.Services.AddAuthorization(auth =>
 // register Interface
 builder.Services.AddScoped<IAuthBL, AuthBL>();
 builder.Services.AddScoped<IUserProfileBL, UserProfileBL>();
+builder.Services.AddScoped<IPostBL, PostBL>();
+builder.Services.AddScoped<ICommentBL, CommentBL>();
+builder.Services.AddScoped<ISocialGroupBL, SocialGroupBL>();
+builder.Services.AddScoped<IUserGroupBL, UserGroupBL>();
+builder.Services.AddScoped<IMessageBL, MessageBL>();
+builder.Services.AddScoped<IFriendBL, FriendBL>();
+
+builder.Services.AddSignalR();
 
 
 // add cache
@@ -89,10 +98,15 @@ builder.Services.AddCors(options =>
       policy =>
       {
           policy
-              .AllowAnyOrigin()
-              .AllowAnyHeader()
-              .AllowAnyMethod()
-              .WithExposedHeaders("Content-Disposition");
+            //.WithOrigins("http://example.com", "http://www.contoso.com", "http://localhost:3000", "https://fe-social-kohl.vercel.app/")
+            //  .AllowAnyOrigin()
+            //  .AllowAnyHeader()
+            //  .AllowAnyMethod()
+            //  .WithExposedHeaders("Content-Disposition");
+            .WithOrigins("http://example.com", "http://www.contoso.com", "http://localhost:3000", "https://fe-social-kohl.vercel.app/", "http://127.0.0.1:5173", "http://localhost:5173")
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials();
       });
 });
 
@@ -117,10 +131,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("AllowLocal");
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHub<ChatHub>("chatHub");
 
 app.Run();

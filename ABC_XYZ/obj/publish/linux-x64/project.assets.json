@@ -855,7 +855,6 @@
         "dependencies": {
           "CommoLib": "1.0.0",
           "MySql.Data": "8.0.33",
-          "MySqlHelper": "1.0.0",
           "ObjectInterface": "1.0.0"
         },
         "compile": {
@@ -863,19 +862,6 @@
         },
         "runtime": {
           "bin/placeholder/DataAccessLayer.dll": {}
-        }
-      },
-      "MySqlHelper/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "MySql.Data": "8.0.33"
-        },
-        "compile": {
-          "bin/placeholder/MySqlHelper.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MySqlHelper.dll": {}
         }
       },
       "ObjectInterface/1.0.0": {
@@ -1760,7 +1746,6 @@
         "dependencies": {
           "CommoLib": "1.0.0",
           "MySql.Data": "8.0.33",
-          "MySqlHelper": "1.0.0",
           "ObjectInterface": "1.0.0"
         },
         "compile": {
@@ -1768,19 +1753,6 @@
         },
         "runtime": {
           "bin/placeholder/DataAccessLayer.dll": {}
-        }
-      },
-      "MySqlHelper/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "MySql.Data": "8.0.33"
-        },
-        "compile": {
-          "bin/placeholder/MySqlHelper.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MySqlHelper.dll": {}
         }
       },
       "ObjectInterface/1.0.0": {
@@ -3771,11 +3743,6 @@
       "type": "project",
       "path": "../DataAccessLayer/DataAccessLayer.csproj",
       "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
-    },
-    "MySqlHelper/1.0.0": {
-      "type": "project",
-      "path": "../MySqlHelper/MySqlHelper.csproj",
-      "msbuildProject": "../MySqlHelper/MySqlHelper.csproj"
     },
     "ObjectInterface/1.0.0": {
       "type": "project",

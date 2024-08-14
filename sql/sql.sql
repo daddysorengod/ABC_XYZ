@@ -71,5 +71,5 @@ create table usergroup(
     iduser int not null,
     idgroup int not null,
     status varchar(10) not null, -- 1 moi yeu cau, 2 da duyệt, 3 từ chối
-    roleingroup varchar(30) not null
+    roleingroup varchar(30) not null -- MEMBER, ADMIN
 );

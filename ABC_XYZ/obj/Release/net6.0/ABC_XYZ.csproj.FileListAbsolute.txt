@@ -50,13 +50,11 @@ D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\S
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\BusinessLayer.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\CommoLib.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\DataAccessLayer.dll
-D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\MySqlHelper.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\ObjectInterface.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\BusinessLayer.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\CommoLib.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\ObjectInterface.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\DataAccessLayer.pdb
-D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\MySqlHelper.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\ABC_XYZ.csproj.AssemblyReference.cache
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\ABC_XYZ.GeneratedMSBuildEditorConfig.editorconfig
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\ABC_XYZ.AssemblyInfoInputs.cache
@@ -73,3 +71,4 @@ D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\refint\ABC_XYZ.dll
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\ABC_XYZ.pdb
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\ABC_XYZ.genruntimeconfig.cache
 D:\WorkSpace\ABC_XYZ\ABC_XYZ\obj\Release\net6.0\ref\ABC_XYZ.dll
+D:\WorkSpace\ABC_XYZ\ABC_XYZ\bin\Release\net6.0\HelperMySqlLib.dll

@@ -16,5 +16,8 @@ namespace ObjectInterface.UserProfile
         public string Avatar { get; set; } 
         public DateTime CreatedDate { get; set; }  
         public string Role { get; set; }
+        public string? Education { get; set; }
+        public string? Gender { get; set; }
+        public string? Job { get; set; }
     }
 }
