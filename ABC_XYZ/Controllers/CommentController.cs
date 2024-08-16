@@ -76,5 +76,24 @@ namespace ABC_XYZ.Controllers
             }
         }
 
+        [HttpPut, Route("LikeComment")]
+        public async Task<IActionResult> LikeComment(int id)
+        {
+            Response<dynamic> res = new Response<dynamic>();
+            try
+            {
+                res = await _iCommentBL.LikeCommit(id);
+                return StatusCode(StatusCodes.Status200OK, res);
+            }
+            catch (Exception ex)
+            {
+                Logger.log.Error(ex.ToString());
+                res.Code = -1;
+                res.Message = ex.ToString();
+                return StatusCode(StatusCodes.Status400BadRequest, res);
+            }
+
+        }
+
     }
 }

@@ -133,6 +133,40 @@ namespace DataAccessLayer
             }
         }
 
+        public Response<dynamic> LikeCommit(int id)
+        {
+            Response<dynamic> res = new Response<dynamic>();
+            try
+            {
+                MySqlParameter pReturn = new MySqlParameter("@p_return", MySqlDbType.Decimal);
+                MySqlParameter pMessage = new MySqlParameter("@p_message", MySqlDbType.VarChar);
+                List<MySqlParameter> listParams = new List<MySqlParameter>();
+
+                listParams.Add(new MySqlParameter("@p_idcomment", MySqlDbType.Int32));
+                listParams[0].Direction = ParameterDirection.Input;
+                listParams[0].Value = id;
+
+                listParams.Add(pReturn);
+                listParams[1].Direction = ParameterDirection.Output;
+
+                listParams.Add(pMessage);
+                listParams[2].Direction = ParameterDirection.Output;
+
+                MySQLHelper.ExecuteNonQuery(ConfigData.ConnectionString, CommandType.StoredProcedure, "proc_like_comment", listParams.ToArray());
+
+                res.Code = Int32.Parse(pReturn.Value.ToString());
+                res.Message = pMessage.Value.ToString();
+                return res;
+            }
+            catch (Exception ex)
+            {
+                Logger.log.Error(ex.ToString());
+                res.Code = -1;
+                res.Message = "Lỗi không xác định";
+                return res;
+            }
+        }
+
         public Response<List<CommentInPost>> GetCommentByPostId(int pIdPost)
         {
             Response<List<CommentInPost>> res = new Response<List<CommentInPost>>(); 

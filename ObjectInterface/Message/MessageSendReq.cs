@@ -10,6 +10,7 @@ namespace ObjectInterface.Message
     {
         public string? Message { get; set; }
         public string? UrlAttach { get; set; }
+        public List<string>? ListUrlAttch { get; set; }
         public int IdUserSend { get; set; }
         public int IdUserRecieve { get; set; }
         public int IdRoom { get; set; }

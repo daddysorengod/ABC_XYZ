@@ -16,6 +16,8 @@ namespace BusinessLayer
         Task<Response<dynamic>> CreateComment(CommentCreateReq comment);
         Task<Response<dynamic>> EditComment(CommentEditReq comment, int pId);
         Task<Response<dynamic>> DeleteComment(int pId);
+        Task<Response<dynamic>> LikeCommit(int id);
+
     }
     public class CommentBL : ICommentBL
     {
@@ -56,6 +58,21 @@ namespace BusinessLayer
             try
             {
                 res = _commentDA.EditComment(comment, pId);
+                return res;
+            }
+            catch (Exception ex)
+            {
+                Logger.log.Error(ex.ToString());
+                return res;
+            }
+        }
+
+        public async Task<Response<dynamic>> LikeCommit(int id)
+        {
+            Response<dynamic> res = new();
+            try
+            {
+                res = _commentDA.LikeCommit(id);
                 return res;
             }
             catch (Exception ex)

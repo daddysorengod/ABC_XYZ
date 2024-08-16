@@ -132,7 +132,7 @@ namespace DataAccessLayer
 
                 listParams.Add(new MySqlParameter("@p_urlattach", MySqlDbType.VarChar));
                 listParams[4].Direction = ParameterDirection.Input;
-                listParams[4].Value = msg.Message;
+                listParams[4].Value = msg.UrlAttach;
 
                 listParams.Add(new MySqlParameter("@p_createddate", MySqlDbType.DateTime));
                 listParams[5].Direction = ParameterDirection.Input;

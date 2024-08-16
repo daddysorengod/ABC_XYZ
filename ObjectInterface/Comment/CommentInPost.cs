@@ -11,5 +11,6 @@ namespace ObjectInterface.Comment
         public string Avatar { get; set; }
         public string UserName { get; set; }
         public string DisplayName { get; set; }
+        public int TotalLike { get; set; }
     }
 }

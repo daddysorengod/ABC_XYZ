@@ -60,7 +60,22 @@ namespace BusinessLayer
             Response<dynamic> res = new Response<dynamic>();
             try
             {
-                res = _messageDA.SendMessage(msg);
+                if (msg.ListUrlAttch is not null && msg.ListUrlAttch.Count > 0)
+                {
+                    foreach (var item in msg.ListUrlAttch)
+                    {
+                        MessageSendReq miniReq = msg;
+                        miniReq.UrlAttach = item;
+                        miniReq.Message = "";
+                        var miniRes = _messageDA.SendMessage(miniReq);
+                    }
+                    res.Code = 1;
+                    res.Message = "";
+                } else
+                {
+                    res = _messageDA.SendMessage(msg);
+                }
+
                 return res;
             }
             catch (Exception ex)

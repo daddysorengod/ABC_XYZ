@@ -15,7 +15,10 @@ namespace BusinessLayer
     {
         Task<Response<dynamic>> AddNewPostOnNewFeed(PostInsertReq post);
         Task<Response<SearchRes<PostInfo>>> GetPostOption(PostSearchOption post, int pTotalRecordInPage, int pBeginRecord);
-        Task<Response<dynamic>> DeletePost(PostDeleteByUserReq del);
+        Task<Response<dynamic>> DeletePost(int id);
+
+        Task<Response<dynamic>> LikePost(int id);
+        Task<Response<dynamic>> EditPost(PostEditReq post);
     }
     public class PostBL : IPostBL
     {
@@ -61,12 +64,54 @@ namespace BusinessLayer
             }
         }
 
-        public async Task<Response<dynamic>> DeletePost(PostDeleteByUserReq del)
+        public async Task<Response<dynamic>> DeletePost(int id)
         {
             Response<dynamic> res = new();
             try
             {
-                res = _postDA.DeletePostFromAuthUser(del);
+                res = _postDA.DeletePostFromAuthUser(id);
+                return res;
+            }
+            catch (Exception ex)
+            {
+                Logger.log.Error(ex.ToString());
+                return res;
+            }
+        }
+
+        public async Task<Response<dynamic>> EditPost(PostEditReq post)
+        {
+            Response<dynamic> res = new();
+            try
+            {
+                res = _postDA.EditPost(post);
+                if (res.Code >= 0)
+                {
+                    _imageDA.DeletedImage(post.IdPost);
+                    if (post.UrlImages.Count > 0 && res.Code > 0)
+                    {
+                        foreach (string item in post.UrlImages)
+                        {
+                            ImageReq img = new ImageReq();
+                            img.Url = item;
+                            img.IdPost = res.Code;
+                            img.CreatedDate = DateTime.Now;
+                            img.IdUser = post.IdUser;
+                            var rs = _imageDA.AddNewImage(img);
+                            if (rs.Code < 0)
+                            {
+                                // vao day phai xoa trongdb 
+                                Logger.log.Error("Khong them duco anh");
+                                //var rs_1 = _postDA.DeletePostFromSystem(res.Code);
+                                res.Code = -1;
+                                res.Message = "Khong them duco anh";
+                                res.Source = null;
+                                return res;
+                            }
+                        }
+                    }
+                }
+                
                 return res;
             }
             catch (Exception ex)
@@ -99,6 +144,21 @@ namespace BusinessLayer
                     }
                 }
                 
+                return res;
+            }
+            catch (Exception ex)
+            {
+                Logger.log.Error(ex.ToString());
+                return res;
+            }
+        }
+
+        public async Task<Response<dynamic>> LikePost(int id)
+        {
+            Response<dynamic> res = new();
+            try
+            {
+                res = _postDA.LikePost(id);
                 return res;
             }
             catch (Exception ex)

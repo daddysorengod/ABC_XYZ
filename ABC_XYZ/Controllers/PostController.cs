@@ -38,13 +38,32 @@ namespace ABC_XYZ.Controllers
 
         }
 
-        [HttpDelete, Route("DeletePost")]
-        public async Task<IActionResult> DeletePostFromAuthUser(PostDeleteByUserReq post)
+        [HttpPut, Route("EditPost")]
+        public async Task<IActionResult> EditPost(PostEditReq post)
         {
             Response<dynamic> res = new Response<dynamic>();
             try
             {
-                res = await _iPostBL.DeletePost(post);
+                res = await _iPostBL.EditPost(post);
+                return StatusCode(StatusCodes.Status200OK, res);
+            }
+            catch (Exception ex)
+            {
+                Logger.log.Error(ex.ToString());
+                res.Code = -1;
+                res.Message = ex.ToString();
+                return StatusCode(StatusCodes.Status400BadRequest, res);
+            }
+
+        }
+
+        [HttpDelete, Route("DeletePost/{id}")]
+        public async Task<IActionResult> DeletePostFromAuthUser(int id)
+        {
+            Response<dynamic> res = new Response<dynamic>();
+            try
+            {
+                res = await _iPostBL.DeletePost(id);
                 return StatusCode(StatusCodes.Status200OK, res);
             }
             catch (Exception ex)
@@ -65,6 +84,25 @@ namespace ABC_XYZ.Controllers
             {
                 res = await _iPostBL.GetPostOption(post, pTotalRecordInPage, pBeginRecord);
                 return StatusCode(StatusCodes.Status200OK, res); 
+            }
+            catch (Exception ex)
+            {
+                Logger.log.Error(ex.ToString());
+                res.Code = -1;
+                res.Message = ex.ToString();
+                return StatusCode(StatusCodes.Status400BadRequest, res);
+            }
+
+        }
+
+        [HttpPut, Route("LikePost")]
+        public async Task<IActionResult> LikePost(int id)
+        {
+            Response<dynamic> res = new Response<dynamic>();
+            try
+            {
+                res = await _iPostBL.LikePost(id);
+                return StatusCode(StatusCodes.Status200OK, res);
             }
             catch (Exception ex)
             {
