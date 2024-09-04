@@ -9,5 +9,7 @@ namespace ABC_XYZ.HubControl
         {
             await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
+
+        
     }
 }
