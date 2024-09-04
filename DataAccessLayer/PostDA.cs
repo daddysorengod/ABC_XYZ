@@ -57,7 +57,7 @@ namespace DataAccessLayer
             {
                 Logger.log.Error(ex.ToString());
                 res.Code = -1;
-                res.Message = "Lỗi không xác định";
+                res.Message = ex.ToString();
                 return res;
             }
         }
@@ -91,7 +91,7 @@ namespace DataAccessLayer
             {
                 Logger.log.Error(ex.ToString());
                 res.Code = -1;
-                res.Message = "Lỗi không xác định";
+                res.Message = ex.ToString();
                 return res;
             }
         }
@@ -125,7 +125,7 @@ namespace DataAccessLayer
             {
                 Logger.log.Error(ex.ToString());
                 res.Code = -1;
-                res.Message = "Lỗi không xác định";
+                res.Message = ex.ToString();
                 return res;
             }
         }
@@ -160,7 +160,7 @@ namespace DataAccessLayer
             {
                 Logger.log.Error(ex.ToString());
                 res.Code = -1;
-                res.Message = "Lỗi không xác định";
+                res.Message = ex.ToString();
                 return res;
             }
         }
@@ -202,7 +202,7 @@ namespace DataAccessLayer
             {
                 Logger.log.Error(ex.ToString());
                 res.Code = -1;
-                res.Message = "Lỗi không xác định";
+                res.Message = ex.ToString();
                 return res;
             }
         }
@@ -259,7 +259,7 @@ namespace DataAccessLayer
             {
                 Logger.log.Error(ex.ToString());
                 res.Code = -1;
-                res.Message = "Lỗi không xác định";
+                res.Message = ex.ToString();
                 return res;
             }
         }
