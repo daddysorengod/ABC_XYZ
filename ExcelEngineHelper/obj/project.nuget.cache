@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "mMcoTkwLdICfONm+Bd6xSxVy3z6vXuRD49SSunWGer8aPRUE3Z9B65XWF/N1qIvxzx9SWwjSyncJQEuHDqv+Bg==",
+  "dgSpecHash": "b8u2nEZ5sIIS8OiGG0cf6TuVk1T/O9xGJLP4QTU581mklEUM3VHXSt7qHk0+4l2EQF43mP+TWZrjFmvWmFPRwA==",
   "success": true,
-  "projectFilePath": "D:\\WorkSpace\\BoTemplateApi\\ExcelEngineHelper\\ExcelEngineHelper.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\WorkSpace\\ABC_XYZ\\ExcelEngineHelper\\ExcelEngineHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NNStore\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\NNStore\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\NNStore\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\NNStore\\.nuget\\packages\\miniexcel\\1.34.1\\miniexcel.1.34.1.nupkg.sha512",
+    "C:\\Users\\NNStore\\.nuget\\packages\\nlog\\5.2.0\\nlog.5.2.0.nupkg.sha512",
+    "C:\\Users\\NNStore\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

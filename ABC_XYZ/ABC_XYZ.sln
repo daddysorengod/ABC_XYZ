@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "..\Busines
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "..\DataAccessLayer\DataAccessLayer.csproj", "{E21A5A24-9B1E-4E7F-BB2C-F6D0F512A9BB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelEngineHelper", "..\ExcelEngineHelper\ExcelEngineHelper.csproj", "{EBB029F1-06F7-4A7F-B721-A3B96206E40E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E21A5A24-9B1E-4E7F-BB2C-F6D0F512A9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E21A5A24-9B1E-4E7F-BB2C-F6D0F512A9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E21A5A24-9B1E-4E7F-BB2C-F6D0F512A9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB029F1-06F7-4A7F-B721-A3B96206E40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB029F1-06F7-4A7F-B721-A3B96206E40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB029F1-06F7-4A7F-B721-A3B96206E40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB029F1-06F7-4A7F-B721-A3B96206E40E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
