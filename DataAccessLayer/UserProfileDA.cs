@@ -295,7 +295,6 @@ namespace DataAccessLayer
                 res.Message = ex.ToString();
                 return res;
             }
-
         }
     }
 }
